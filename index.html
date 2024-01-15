@@ -3,53 +3,33 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    
+    
 </head>
-<style>
-    .container {
-        margin: auto;
-        max-width: 640px;
-
-    }
-
-    label {
-        display: block;
-    }
-
-    ul {
-        list-style: none;
-        padding: 0;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-    .div-input {
-        margin: auto;
-        width: 320px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-</style>
-
 <body>
     <main class="container">
 
-        <h1>Lista</h1>
+        <h1>Digite o produto que desja ser inserido no Checklist </h1>
         <div class="div-input">
 
             
             <div>
-                <input type="text" id="classes" placeholder="Insira a tarefa aqui">
-                <button>x</button>
+                <input type="text" class="classes" placeholder="Digite aqui" >
+                <button class = "btn-primary" onclick="novoelemento()"  title="Clique aqui para adicionar um novo elemento">x</button>
                 
             </div>
             <ul>
-                <li>qualquer coisa <button>x</button></li>
+                <li>qualquer coisa <button class="btn-second">x</button>
+                <li>2</li>
+
+                </li>
+                
+                
+            
     
             </ul>
     

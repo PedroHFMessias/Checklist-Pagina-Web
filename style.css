@@ -1,0 +1,77 @@
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    
+}
+.container {
+    margin: auto;
+    max-width: 640px;
+    border:solid black;
+    
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin-right: 20px;
+   
+
+}
+
+
+li:hover{
+    background-color: #08c;
+    color: #fff;
+}
+
+.div-input {
+    margin: auto;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+    
+    
+}
+
+.classes{
+    border-radius: 5px;
+}
+
+
+.btn-primary{
+    background-color: #08c;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn-primary:hover{
+    background-color: #fff;
+    color: #08c;
+}
+
+.btn-second{
+
+    background-color: #08c;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn-second:hover{
+    background-color: #fff;
+    color: #08c;
+
+}
+
+
