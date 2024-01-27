@@ -6,43 +6,23 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    
-    
 </head>
+
 <body>
     <main class="container">
-
-        <h1>Digite o produto que desja ser inserido no Checklist </h1>
+        <h1>Digite o produto que deseja ser inserido no Checklist</h1>
         <div class="div-input">
-
-            
-            <div>
-                <input type="text" class="classes" placeholder="Digite aqui" >
-                <button class = "btn-primary" onclick="novoelemento()"  title="Clique aqui para adicionar um novo elemento">x</button>
-                
+            <div class="btn-container">
+                <input type="text" class="classes" placeholder="Digite aqui" onkeyup="adicionarElemento(event)">
+                <button class="btnprimary" onclick="novoelemento()"
+                    title="Clique aqui para adicionar um novo elemento">➕</button>
             </div>
-            <ul>
-                <li>qualquer coisa <button class="btn-second">x</button>
-                <li>2</li>
-
-                </li>
+            <ul class="list">
                 
-                
-            
-    
             </ul>
-    
         </div>
-        
-
-
-
-
     </main>
-
-
-
+    <script src="script.js"></script>
 </body>
 
 </html>
