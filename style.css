@@ -49,7 +49,7 @@ li:hover {
 
 .btnprimary,
 .btnsecond,
-.btnremove {
+.btnok {
     margin: 5px;
     border-radius: 5px;
     cursor: pointer;
@@ -71,7 +71,7 @@ li:hover {
 }
 
 .btnsecond,
-.btnremove {
+.btnok {
     align-self: flex-start; 
     margin-right: auto; 
     margin-left: 5px; 
@@ -82,7 +82,7 @@ li:hover {
     color: #fff;
 }
 
-.btnremove {
+.btnok {
     background-color: #35dc38;
     color: #fff;
     border: none;
@@ -104,6 +104,6 @@ li:hover {
     color: #08c;
 }
 
-.btnremove:hover {
+.btnok:hover {
     background-color: #23c880;
 }
